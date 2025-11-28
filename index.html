@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Melo - Web Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="src/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%2300d9ff' width='100' height='100'/%3E%3Ctext x='50' y='50' font-size='40' text-anchor='middle' dy='.3em' fill='white' font-family='Arial'%3EGM%3C/text%3E%3C/svg%3E" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#" title="GitHub">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="LinkedIn">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Guilherme Melo</h1>
+                <p>
+                    Olá, eu me chamo Guilherme Melo e sou um desenvolvedor web mais focado em aplicações front-end 
+                    e à pouco mais de 1 ano, minha vontade de aprender não faz parar, horas na frente do computador 
+                    aprendendo sobre as mais diversas assuntos sobre tecnologia, atualmente minhas habilidades estão 
+                    concentradas em HTML, CSS, Javascript, e utilizo frameworks como o ReactJS para desenvolver 
+                    minhas aplicações.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-content">
+                            <h3>Layout para estúdio de design</h3>
+                            <p>
+                                Criei um layout para estúdio de design usando HTML, Bootstrap/CSS. 
+                                Optei/Javascript com design seguindo uma linha minimalista. O objetivo deste projeto é 
+                                praticar minhas habilidades no framework Bootstrap e jQuery.
+                            </p>
+                            <button class="btn btn-custom">Ver Projeto</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-content">
+                            <h3>Rede social Opinion Share</h3>
+                            <p>
+                                Odesafio deste projeto é criar uma réplica de rede social onde as pessoas logadas 
+                                podem compartilhar ou seus opiniões em um chat global, usando a API do YouTube. A 
+                                aplicação não está totalmente concluida ainda já tudo o backend e contrair alguns bugs, 
+                                porém consegui integrar média, basecamp/us, desenvolvimento, Firebase.
+                            </p>
+                            <button class="btn btn-custom">Ver Projeto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn-view-all">View all</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Entre em contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:guilhermeolr242@gmail.com">guilhermeolr242@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <span>(79) 98842-1033</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
